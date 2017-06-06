@@ -1,0 +1,189 @@
+body {
+    font-family: arial,sans-serif;
+    margin:0;
+}
+
+div {
+    display:block;
+}
+
+.search {
+    height:44px;
+    width:528px;
+    border:1px solid #BEBEBE;
+    position:absolute;
+    top:calc(50% - 150px);
+    left:calc(50% - 284px);
+    box-shadow:0px 2px 8px -3px rgba(50, 50, 50, 0.75);
+    font-size:20px;
+    padding-left:16px;
+    padding-right:50px;
+}
+
+.search:hover {
+    box-shadow:0px 2px 13px -3px rgba(50, 50, 50, 0.75);
+}
+
+input {
+    outline:none;
+}
+
+.subs {
+    position:absolute;
+    top:calc(50% - 70px);
+    left:calc(50% - 144.5px );
+}
+
+.submit {
+    font-weight:bold;
+    height:36px;
+    width:140px;
+    background-color:#f2f2f2;
+    color: #757575;
+    border:none;
+    padding-right:15px;
+    padding-left:15px;
+}
+
+.submit:nth-child(2) {
+    margin-left:5px;
+}
+
+.submit:hover {
+    color:#000000;
+    border:1px solid #757575;
+}
+
+.logo {
+    background:url(./images/google.png) no-repeat;
+    background-size:cover;
+    width:280px;
+    height:160px;
+    position:absolute;
+    top:calc(50% - 300px);
+    left:calc(50% - 140px);
+}
+
+.hat {
+    overflow:hidden;
+    font-size:13px;
+    position:absolute;
+    top:0;
+    width:100%;
+    height:60px;
+    color: #666;
+    white-space:nowrap;
+}
+
+.hat-text-element {
+    margin-left:15px;
+}
+
+.hat-text {
+    position: relative;
+    float:right;
+    margin-right:15px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.appsimg {
+    background:url(./images/appsimg.png) no-repeat;
+    background-size:cover;
+    height:15px;
+    width:15px;
+
+}
+
+.appsimg:hover {
+    background-image:url(./images/appsimghover.png);
+}
+
+.notesimg {
+    height:15px;
+    width:15px;
+    background:url(./images/notesimg.png) no-repeat;
+    background-size:cover;
+}
+
+.notesimg:hover {
+    background-image:url(./images/notesimghover.png);
+}
+
+.avaimg {
+    background:url(images/avaimg.png) no-repeat;
+    background-size:cover;
+    border-radius:20px;
+    height:30px;
+    width:30px;
+    margin-right:20px;
+}
+
+.img {
+    margin-left:20px;
+    float:right;
+    position:relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.img:hover {
+    cursor:pointer;
+}
+
+.footer {
+    color: #666;
+    background: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+    position: absolute;
+    bottom: 0;
+    font-size: 13px;
+    height: 37px;
+    width:100%;
+}
+
+.footer-left {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+    float: left;
+}
+.footer-right {
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    float: right;
+}
+
+.footer-left-element {
+    margin-left: 30px;
+}
+
+.footer-right-element {
+    margin-right: 30px;
+}
+
+.al:hover {
+    text-decoration:underline;
+    cursor:pointer;
+}
+
+a {
+    color:inherit;
+    text-decoration:inherit;
+}
+
